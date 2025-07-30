@@ -6,16 +6,10 @@ import {
   TouchableWithoutFeedback,
   TouchableOpacity,
   FlatList,
-  UIManager,
 } from 'react-native';
 import Icon from '@react-native-vector-icons/ionicons';
 import styles, { colorPack } from './styles';
 import { vh } from '@utils';
-
-// set UIManager LayoutAnimationEnabledExperimental
-if (UIManager.setLayoutAnimationEnabledExperimental) {
-  UIManager.setLayoutAnimationEnabledExperimental(true);
-}
 
 const defaultSearchIcon = (
   <Icon
