@@ -6,6 +6,7 @@ import {
   TouchableWithoutFeedback,
   TouchableOpacity,
   FlatList,
+  UIManager,
 } from 'react-native';
 import Icon from '@react-native-vector-icons/ionicons';
 import styles, { colorPack } from './styles';
