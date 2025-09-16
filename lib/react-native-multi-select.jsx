@@ -1,8 +1,6 @@
 import { Component } from 'react';
 import {
-  Text,
   View,
-  TextInput,
   TouchableWithoutFeedback,
   TouchableOpacity,
   FlatList,
@@ -10,6 +8,7 @@ import {
 import Icon from '@react-native-vector-icons/ionicons';
 import styles, { colorPack } from './styles';
 import { vh } from '@utils';
+import { Text, TextInput } from '@components';
 
 const defaultSearchIcon = (
   <Icon
