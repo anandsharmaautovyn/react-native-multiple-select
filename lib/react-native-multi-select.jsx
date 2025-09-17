@@ -275,7 +275,7 @@ export default class MultiSelect extends Component {
               fontFamily: isSelected ? selectedItemFontFamily : itemFontFamily,
               ...(item.disabled ? { color: 'grey' } : {}),
             }}
-            numberOfLines={1}
+            // numberOfLines={1}
           >
             {item[displayKey]}
           </Text>
