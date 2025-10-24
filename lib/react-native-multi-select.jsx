@@ -422,7 +422,7 @@ export default class MultiSelect extends Component {
                 />
               )}
             </View>
-            <View style={{ backgroundColor: '#fafafa' }}>
+            <View>
 
               <View style={styleItemsContainer && styleItemsContainer}>
                 {this._renderItems()}
